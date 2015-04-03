@@ -1,0 +1,128 @@
+﻿<Window x:Class="GraphicsCW.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="695" Width="1244">
+    <Grid Height="646">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="22*" />
+            <ColumnDefinition Width="45*" />
+            <ColumnDefinition Width="1155*" />
+        </Grid.ColumnDefinitions>
+        <Image Height="593" HorizontalAlignment="Left" Margin="10,25,0,0" Name="screen" Stretch="Fill" VerticalAlignment="Top" Width="900" Grid.ColumnSpan="3" />
+        <TabControl Height="591" HorizontalAlignment="Left" Margin="849,27,0,0" Name="tabControl1" VerticalAlignment="Top" Width="294" Grid.Column="2">
+            <TabItem Header="Camera" Name="tabItem1">
+                <Grid>
+                    <GroupBox Header="Move" Height="213" HorizontalAlignment="Left" Margin="6,6,0,0" Name="groupBox1" VerticalAlignment="Top" Width="272">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="66*" />
+                                <RowDefinition Height="124*" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="96*" />
+                                <ColumnDefinition Width="164*" />
+                            </Grid.ColumnDefinitions>
+                            <TextBox Height="23" HorizontalAlignment="Left" Margin="7,10,0,0" Name="stepField" VerticalAlignment="Top" Width="120" Grid.Column="1" Text="0" LostFocus="stepField_LostFocus" />
+                            <Label Content="Step" Height="28" HorizontalAlignment="Left" Margin="36,8,0,0" Name="label1" VerticalAlignment="Top" />
+                            <TextBox Height="23" HorizontalAlignment="Left" Margin="7,54,0,0" Name="XDest" VerticalAlignment="Top" Width="47" Grid.Column="1" Grid.RowSpan="2" IsReadOnly="True" Text="0" TextAlignment="Center" />
+                            <TextBox Height="23" HorizontalAlignment="Left" Margin="7,35,0,0" Name="YDest" VerticalAlignment="Top" Width="47" Grid.Column="1" Grid.Row="1" IsReadOnly="True" Text="0" TextAlignment="Center" />
+                            <Button Content="Left" Height="23" HorizontalAlignment="Left" Margin="25,53,0,0" Name="moveCamLeft" VerticalAlignment="Top" Width="52" DataContext="{Binding}" Grid.RowSpan="2" Click="moveCamLeft_Click" />
+                            <Button Content="Right" DataContext="{Binding}" Height="23" HorizontalAlignment="Left" Margin="84,53,0,0" Name="moveCamRight" VerticalAlignment="Top" Width="53" Grid.Column="1" Grid.RowSpan="2" Click="moveCamRight_Click" />
+                            <Button Content="Up" DataContext="{Binding}" Height="23" HorizontalAlignment="Left" Margin="25,35,0,0" Name="moveCamUp" VerticalAlignment="Top" Width="52" Grid.Row="1" Click="moveCamUp_Click" />
+                            <Button Content="Down" DataContext="{Binding}" Height="23" HorizontalAlignment="Left" Margin="84,35,0,0" Name="moveCamDown" VerticalAlignment="Top" Width="53" Grid.Column="1" Grid.Row="1" Click="moveCamDown_Click" />
+                            <TextBox Height="23" HorizontalAlignment="Left" Margin="7,80,0,0" Name="ZDest" VerticalAlignment="Top" Width="47" Grid.Column="1" Grid.Row="1" IsReadOnly="True" Text="0" TextAlignment="Center" />
+                            <Button Content="Forward" DataContext="{Binding}" Height="23" HorizontalAlignment="Left" Margin="25,0,0,21" Name="moveCamForw" VerticalAlignment="Bottom" Width="52" Grid.Row="1" Click="moveCamForw_Click" />
+                            <Button Content="Back" DataContext="{Binding}" Grid.Column="1" Height="23" HorizontalAlignment="Left" Margin="84,80,0,0" Name="moveCamBack" VerticalAlignment="Top" Width="53" Grid.Row="1" Click="moveCamBack_Click" />
+                        </Grid>
+                    </GroupBox>
+                    <GroupBox Header="Rotate" Height="166" HorizontalAlignment="Left" Margin="6,225,0,0" Name="groupBox2" VerticalAlignment="Top" Width="272">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="96*" />
+                                <ColumnDefinition Width="164*" />
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="66*" />
+                                <RowDefinition Height="124*" />
+                            </Grid.RowDefinitions>
+                            <TextBox Grid.Column="1" Height="23" HorizontalAlignment="Left" Margin="7,10,0,0" Name="rotateStep" Text="0" VerticalAlignment="Top" Width="120" LostFocus="textBox1_LostFocus" />
+                            <Label Content="Step" Height="28" HorizontalAlignment="Left" Margin="36,8,0,0" Name="label2" VerticalAlignment="Top" />
+                            <TextBox Grid.Column="1" Grid.RowSpan="2" Height="23" HorizontalAlignment="Left" IsReadOnly="True" Margin="7,54,0,0" Name="YAngle" Text="0" TextAlignment="Center" VerticalAlignment="Top" Width="47" />
+                            <TextBox Grid.Column="1" Grid.Row="1" Height="23" HorizontalAlignment="Left" IsReadOnly="True" Margin="7,47,0,0" Name="XAngle" Text="0" TextAlignment="Center" VerticalAlignment="Top" Width="47" />
+                            <Button Content="Left" DataContext="{Binding}" Grid.RowSpan="2" Height="23" HorizontalAlignment="Left" Margin="25,53,0,0" Name="rotateCamLeft" VerticalAlignment="Top" Width="52" Click="rotateCamLeft_Click" />
+                            <Button Content="Right" DataContext="{Binding}" Grid.Column="1" Grid.RowSpan="2" Height="23" HorizontalAlignment="Left" Margin="84,53,0,0" Name="rotateCamRight" VerticalAlignment="Top" Width="53" Click="rotateCamRight_Click" />
+                            <Button Content="Up" DataContext="{Binding}" Grid.Row="1" Height="23" HorizontalAlignment="Left" Margin="25,47,0,0" Name="rotateCamUp" VerticalAlignment="Top" Width="52" Click="rotateCamUp_Click" />
+                            <Button Content="Down" DataContext="{Binding}" Grid.Column="1" Grid.Row="1" Height="23" HorizontalAlignment="Left" Margin="84,47,0,0" Name="rotateCamDown" VerticalAlignment="Top" Width="53" Click="rotateCamDown_Click" />
+                        </Grid>
+                    </GroupBox>
+                    <GroupBox Header="Zoom" Height="85" HorizontalAlignment="Left" Margin="12,399,0,0" Name="groupBox3" VerticalAlignment="Top" Width="266">
+                        <Grid>
+                            <TextBox Height="23" HorizontalAlignment="Left" IsReadOnly="True" Margin="97,21,0,0" Name="zoomField" Text="0" TextAlignment="Center" VerticalAlignment="Top" Width="47" />
+                            <Button Content="-" DataContext="{Binding}" Height="23" HorizontalAlignment="Left" Margin="19,21,0,0" Name="zoomMinus" VerticalAlignment="Top" Width="52" Click="zoomMinus_Click" />
+                            <Button Content="+" DataContext="{Binding}" Height="23" HorizontalAlignment="Left" Margin="174,21,0,0" Name="zoomPlus" VerticalAlignment="Top" Width="53" Click="zoomPlus_Click" />
+                        </Grid>
+                    </GroupBox>
+                    <RadioButton Content="Central Projecting" Height="16" HorizontalAlignment="Left" Margin="12,511,0,0" Name="centralRB" VerticalAlignment="Top" FontSize="12" GroupName="Projecting" IsChecked="False" Checked="centralRB_Checked" />
+                    <RadioButton Content="Parallel Projecting" Height="16" HorizontalAlignment="Left" Margin="167,511,0,0" Name="paralelRB" VerticalAlignment="Top" GroupName="Projecting" Checked="paralelRB_Checked" />
+                </Grid>
+            </TabItem>
+            <TabItem Header="Objects">
+                <Grid Height="557" Name="grid1" Width="282">
+                    <ListBox Height="156" HorizontalAlignment="Left" Margin="6,6,0,0" Name="viewCollection" VerticalAlignment="Top" Width="166" DataContext="{Binding}" SelectionChanged="viewCollection_SelectionChanged" />
+                    <Button Content="Add" Height="23" HorizontalAlignment="Left" Margin="178,6,0,0" Name="addPictureBut" VerticalAlignment="Top" Width="75" Click="addPictureBut_Click" />
+                    <Button Content="Delete" Height="23" HorizontalAlignment="Left" Margin="178,43,0,0" Name="deletePictureBut" VerticalAlignment="Top" Width="75" Click="deletePictureBut_Click" />
+                    <Button Content="Go to" Height="23" HorizontalAlignment="Left" Margin="178,82,0,0" Name="gotoPictureBut" VerticalAlignment="Top" Width="75" Click="gotoPictureBut_Click" />
+                    <GroupBox Header="move" Height="140" HorizontalAlignment="Left" Margin="6,173,0,0" Name="groupBox4" VerticalAlignment="Top" Width="270">
+                        <Grid>
+                            <TextBox Height="23" HorizontalAlignment="Left" Margin="6,30,0,0" Name="XmoveText" VerticalAlignment="Top" Width="66" Text="0" TextAlignment="Center" />
+                            <TextBox Height="23" HorizontalAlignment="Left" Margin="94,30,0,0" Name="YmoveText" VerticalAlignment="Top" Width="66" Text="0" TextAlignment="Center" />
+                            <TextBox Height="23" HorizontalAlignment="Left" Margin="186,30,0,0" Name="ZmoveText" VerticalAlignment="Top" Width="66" Text="0" TextAlignment="Center" />
+                            <Button Content="Move" Height="23" HorizontalAlignment="Left" Margin="88,77,0,0" Name="moveWalleBut" VerticalAlignment="Top" Width="75" Click="moveWalleBut_Click" />
+                            <Label Content="X" Height="28" HorizontalAlignment="Left" Margin="27,6,0,0" Name="label3" VerticalAlignment="Top" />
+                            <Label Content="Y" Height="28" HorizontalAlignment="Left" Margin="115,6,0,0" Name="label4" VerticalAlignment="Top" />
+                            <Label Content="Z" Height="28" HorizontalAlignment="Left" Margin="213,6,0,0" Name="label5" VerticalAlignment="Top" />
+                        </Grid>
+                    </GroupBox>
+                    <GroupBox Header="Rotate" Height="232" HorizontalAlignment="Left" Margin="6,319,0,0" Name="groupBox5" VerticalAlignment="Top" Width="138">
+                        <Grid>
+                            <TextBox Height="23" HorizontalAlignment="Left" Margin="6,36,0,0" Name="XWalleAngle" VerticalAlignment="Top" Width="38" Text="0" />
+                            <Button Content="Rotate" Height="23" HorizontalAlignment="Left" Margin="50,36,0,0" Name="XRotate" VerticalAlignment="Top" Width="70" Click="button1_Click" />
+                            <Label Content="X Rotate" Height="28" HorizontalAlignment="Left" Margin="28,6,0,0" Name="label6" VerticalAlignment="Top" />
+                            <TextBox Height="23" HorizontalAlignment="Left" Margin="6,104,0,0" Name="YWalleAngle" Text="0" VerticalAlignment="Top" Width="38" />
+                            <Button Content="Rotate" Height="23" HorizontalAlignment="Left" Margin="50,104,0,0" Name="YRotate" VerticalAlignment="Top" Width="70" Click="YRotate_Click" />
+                            <Label Content="Y Rotate" Height="28" HorizontalAlignment="Left" Margin="28,74,0,0" Name="label7" VerticalAlignment="Top" />
+                            <TextBox Height="23" HorizontalAlignment="Left" Margin="6,174,0,0" Name="ZWalleAngle" Text="0" VerticalAlignment="Top" Width="38" />
+                            <Button Content="Rotate" Height="23" HorizontalAlignment="Left" Margin="50,174,0,0" Name="ZRotate" VerticalAlignment="Top" Width="70" Click="ZRotate_Click" />
+                            <Label Content="Z Rotate" Height="28" HorizontalAlignment="Left" Margin="28,144,0,0" Name="label8" VerticalAlignment="Top" />
+                        </Grid>
+                    </GroupBox>
+                    <GroupBox Header="Scale" Height="232" HorizontalAlignment="Left" Margin="145,319,0,0" Name="groupBox6" VerticalAlignment="Top" Width="131">
+                        <Grid>
+                            <TextBox Height="23" HorizontalAlignment="Left" Margin="6,25,0,0" Name="XScale" VerticalAlignment="Top" Width="107" Text="1" TextAlignment="Center" />
+                            <TextBox Height="23" HorizontalAlignment="Left" Margin="6,73,0,0" Name="YScale" VerticalAlignment="Top" Width="107" Text="1" TextAlignment="Center" />
+                            <TextBox Height="23" HorizontalAlignment="Left" Margin="6,122,0,0" Name="ZScale" VerticalAlignment="Top" Width="107" Text="1" TextAlignment="Center" />
+                            <Button Content="Scale" Height="23" HorizontalAlignment="Left" Margin="23,173,0,0" Name="scaleWalle" VerticalAlignment="Top" Width="75" Click="scaleWalle_Click" />
+                            <Label Content="X Scale" Height="28" HorizontalAlignment="Left" Margin="37,0,0,0" Name="label9" VerticalAlignment="Top" />
+                            <Label Content="Y Scale" Height="28" HorizontalAlignment="Left" Margin="37,46,0,0" Name="label10" VerticalAlignment="Top" />
+                            <Label Content="Z Scale" Height="28" HorizontalAlignment="Left" Margin="37,97,0,0" Name="label11" VerticalAlignment="Top" />
+                        </Grid>
+                    </GroupBox>
+                    <Button Content="Change" Height="23" HorizontalAlignment="Left" Margin="179,123,0,0" Name="changeObject" VerticalAlignment="Top" Width="75" Click="changeObject_Click" />
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <RadioButton Content="Surface model" Height="16" HorizontalAlignment="Left" Margin="181,623,0,0" Name="surfaceRB" VerticalAlignment="Top" FontSize="14" Checked="surfaceRB_Checked" Grid.Column="2" />
+        <RadioButton Content="Wire Model" Height="16" HorizontalAlignment="Left" Margin="355,623,0,0" Name="wireRB" VerticalAlignment="Top" FontSize="14" Checked="wireRB_Checked" Grid.Column="2" />
+        <RadioButton Content="Filling Model" Height="16" HorizontalAlignment="Left" Margin="510,623,0,0" Name="fillRB" VerticalAlignment="Top" FontSize="14" Checked="fillRB_Checked" Grid.Column="2" />
+        <Menu Height="26" HorizontalAlignment="Left" Margin="10,0,0,0" Name="menu1" VerticalAlignment="Top" Width="1222" Grid.ColumnSpan="3">
+            <MenuItem Header="File">
+                <MenuItem Header="Load" Click="MenuItemLoad_Click"/>
+                <MenuItem Header="Save" Click="MenuItemSave_Click"/>
+            </MenuItem>
+            <MenuItem Header="Camera">
+                <MenuItem Header="Horizontal Angle" Click="MenuItem_Click"/>
+                <MenuItem Header="Vertical Angle"  Click="MenuItem_Click_1"/>
+            </MenuItem>
+        </Menu>
+    </Grid>
+</Window>

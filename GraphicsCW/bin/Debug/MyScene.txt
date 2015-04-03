@@ -1,0 +1,26 @@
+<Camera>
+<VisionPoint>0 0 0</VisionPoint>
+<ScreenCenter>0 0 250</ScreenCenter>
+<HorizontalAngle>120</HorizontalAngle>
+<VerticalAngle>98</VerticalAngle>
+<MinDistance>250</MinDistance>
+<CentralProjection>True</CentralProjection>
+</Camera>
+<Drawer>
+<UnFillMode>True</UnFillMode>
+</Drawer>
+<Walle>
+<WalleVisionPoint>0 0 0</WalleVisionPoint>
+<WalleScreenCenter>0 0 250</WalleScreenCenter>
+<BasePoint>350 250 330</BasePoint>
+<HousingLength>100</HousingLength>
+<HandsWidth>15</HandsWidth>
+<HandsLength>70</HandsLength>
+<TrunkWidth>80</TrunkWidth>
+<TrunkHeight>80</TrunkHeight>
+<NeckWidth>40</NeckWidth>
+<NeckHeight>60</NeckHeight>
+<TrackCylinderRad>15</TrackCylinderRad>
+<EyeCylinderHeight>20</EyeCylinderHeight>
+<PanelsNumber>3</PanelsNumber>
+</Walle>

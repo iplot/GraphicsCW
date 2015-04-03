@@ -1,0 +1,78 @@
+﻿<Window x:Class="GraphicsCW.NewWalle"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="NewWalle" Height="656" Width="946">
+    <Grid>
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="483,50,0,0" Name="housingLengthText" VerticalAlignment="Top" Width="120" Text="50" TextAlignment="Center" IsReadOnly="True" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="483,114,0,0" Name="handsLengthText" Text="40" TextAlignment="Center" VerticalAlignment="Top" Width="120" IsReadOnly="True" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="483,175,0,0" Name="handsWidthText" Text="10" TextAlignment="Center" VerticalAlignment="Top" Width="120" IsReadOnly="True" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="483,236,0,0" Name="trunkWidthText" Text="30" TextAlignment="Center" VerticalAlignment="Top" Width="120" IsReadOnly="True" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="483,293,0,0" Name="trunkHeightText" Text="30" TextAlignment="Center" VerticalAlignment="Top" Width="120" IsReadOnly="True" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="483,357,0,0" Name="neckHeightText" Text="30" TextAlignment="Center" VerticalAlignment="Top" Width="120" IsReadOnly="True" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="483,416,0,0" Name="neckWidthText" Text="20" TextAlignment="Center" VerticalAlignment="Top" Width="120" IsReadOnly="True" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="483,476,0,0" Name="trackRadiusText" Text="10" TextAlignment="Center" VerticalAlignment="Top" Width="120" IsReadOnly="True" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="483,539,0,0" Name="eyeHeightText" Text="15" TextAlignment="Center" VerticalAlignment="Top" Width="120" IsReadOnly="True" />
+        
+        
+        <Slider Height="23" HorizontalAlignment="Left" Margin="33,50,0,0" Name="housingLengthSlider" VerticalAlignment="Top" Width="419" Minimum="50" Maximum="150" SmallChange="5" LargeChange="5" TickPlacement="BottomRight" AutoToolTipPlacement="None" AutoToolTipPrecision="0" IsSnapToTickEnabled="True" TickFrequency="5" IsSelectionRangeEnabled="True" ValueChanged="housingLengthSlider_ValueChanged" />
+        
+        <Label Content="Housing length" Height="28" HorizontalAlignment="Left" Margin="281,20,0,0" Name="label1" VerticalAlignment="Top" />
+        <Slider AutoToolTipPlacement="None" AutoToolTipPrecision="0" Height="23" HorizontalAlignment="Left" IsSelectionRangeEnabled="True" IsSnapToTickEnabled="True" LargeChange="5" Margin="33,114,0,0" Maximum="100" Minimum="40" Name="handsLengthSlider" SmallChange="5" TickFrequency="5" TickPlacement="BottomRight" VerticalAlignment="Top" Width="419" ValueChanged="housingLengthSlider_ValueChanged" />
+        
+        <Label Content="Hands length" Height="28" HorizontalAlignment="Left" Margin="281,84,0,0" Name="label2" VerticalAlignment="Top" />
+        <Slider AutoToolTipPlacement="None" AutoToolTipPrecision="0" Height="23" HorizontalAlignment="Left" IsSelectionRangeEnabled="True" IsSnapToTickEnabled="True" LargeChange="1" Margin="33,175,0,0" Maximum="30" Minimum="10" Name="handsWidthSlider" SmallChange="1" TickFrequency="1" TickPlacement="BottomRight" VerticalAlignment="Top" Width="419" ValueChanged="housingLengthSlider_ValueChanged" />
+        
+        <Label Content="Hands width" Height="28" HorizontalAlignment="Left" Margin="281,145,0,0" Name="label3" VerticalAlignment="Top" />
+        <Slider AutoToolTipPlacement="None" AutoToolTipPrecision="0" Height="23" HorizontalAlignment="Left" IsSelectionRangeEnabled="True" IsSnapToTickEnabled="True" LargeChange="10" Margin="33,236,0,0" Maximum="130" Minimum="30" Name="trunkWidthSlider" SmallChange="10" TickFrequency="10" TickPlacement="BottomRight" VerticalAlignment="Top" Width="419" ValueChanged="housingLengthSlider_ValueChanged" />
+        
+        <Label Content="Trunk width" Height="28" HorizontalAlignment="Left" Margin="281,206,0,0" Name="label4" VerticalAlignment="Top" />
+        <Slider AutoToolTipPlacement="None" AutoToolTipPrecision="0" Height="23" HorizontalAlignment="Left" IsSelectionRangeEnabled="True" IsSnapToTickEnabled="True" LargeChange="10" Margin="33,293,0,0" Maximum="130" Minimum="30" Name="trunkHeightSlider" SmallChange="10" TickFrequency="10" TickPlacement="BottomRight" VerticalAlignment="Top" Width="419" ValueChanged="housingLengthSlider_ValueChanged" />
+        
+        <Label Content="Trunk height" Height="28" HorizontalAlignment="Left" Margin="281,263,0,0" Name="label5" VerticalAlignment="Top" />
+        <Slider AutoToolTipPlacement="None" AutoToolTipPrecision="0" Height="23" HorizontalAlignment="Left" IsSelectionRangeEnabled="True" IsSnapToTickEnabled="True" LargeChange="5" Margin="33,357,0,0" Maximum="90" Minimum="30" Name="neckHeightSlider" SmallChange="5" TickFrequency="5" TickPlacement="BottomRight" VerticalAlignment="Top" Width="419" ValueChanged="housingLengthSlider_ValueChanged" />
+        
+        <Label Content="Neck height" Height="28" HorizontalAlignment="Left" Margin="281,327,0,0" Name="label6" VerticalAlignment="Top" />
+        <Slider AutoToolTipPlacement="None" AutoToolTipPrecision="0" Height="23" HorizontalAlignment="Left" IsSelectionRangeEnabled="True" IsSnapToTickEnabled="True" LargeChange="5" Margin="33,416,0,0" Maximum="80" Minimum="20" Name="neckWidthSlider" SmallChange="5" TickFrequency="5" TickPlacement="BottomRight" VerticalAlignment="Top" Width="419" ValueChanged="housingLengthSlider_ValueChanged" />
+        
+        <Label Content="Neck width" Height="28" HorizontalAlignment="Left" Margin="281,386,0,0" Name="label7" VerticalAlignment="Top" />
+        <Slider AutoToolTipPlacement="None" AutoToolTipPrecision="0" Height="23" HorizontalAlignment="Left" IsSelectionRangeEnabled="True" IsSnapToTickEnabled="True" LargeChange="1" Margin="33,476,0,0" Maximum="25" Minimum="10" Name="trackRadiusSlider" SmallChange="1" TickFrequency="1" TickPlacement="BottomRight" VerticalAlignment="Top" Width="419" ValueChanged="housingLengthSlider_ValueChanged" />
+        
+        <Label Content="Track radius" HorizontalAlignment="Left" Margin="281,446,0,0" Name="label8" Height="28" VerticalAlignment="Top" />
+        <Slider AutoToolTipPlacement="None" AutoToolTipPrecision="0" Height="23" HorizontalAlignment="Left" IsSelectionRangeEnabled="True" IsSnapToTickEnabled="True" LargeChange="1" Margin="33,539,0,0" Maximum="30" Minimum="15" Name="eyeHeightSlider" SmallChange="1" TickFrequency="1" TickPlacement="BottomRight" VerticalAlignment="Top" Width="419" ValueChanged="housingLengthSlider_ValueChanged" />
+        
+        <Label Content="Eye height" Height="28" HorizontalAlignment="Left" Margin="281,509,0,0" Name="label9" VerticalAlignment="Top" />
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="704,50,0,0" Name="panellsNum" VerticalAlignment="Top" Width="149">
+            <ComboBoxItem Content="0" IsSelected="True" />
+            <ComboBoxItem Content="1" />
+            <ComboBoxItem Content="2" />
+            <ComboBoxItem Content="3" />
+        </ComboBox>
+        <Label Content="Panells number" Height="28" HorizontalAlignment="Left" Margin="732,20,0,0" Name="label10" VerticalAlignment="Top" />
+        <GroupBox Header="Colors" Height="351" HorizontalAlignment="Left" Margin="640,88,0,0" Name="groupBox1" VerticalAlignment="Top" Width="272">
+            <Grid>
+                <Button Content="Housing" Height="23" HorizontalAlignment="Left" Margin="6,12,0,0" Name="housingCoor" VerticalAlignment="Top" Width="75" Click="housingCoor_Click" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="99,9,0,0" Name="housingColorText" VerticalAlignment="Top" Width="155" IsReadOnly="True" />
+                <Button Content="Hands" Height="23" HorizontalAlignment="Left" Margin="6,57,0,0" Name="handsColor" VerticalAlignment="Top" Width="75" Click="housingCoor_Click" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="99,54,0,0" Name="handsColorText" VerticalAlignment="Top" Width="155" IsReadOnly="True" />
+                <Button Content="Trunk" Height="23" HorizontalAlignment="Left" Margin="6,102,0,0" Name="trunkColor" VerticalAlignment="Top" Width="75" Click="housingCoor_Click" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="99,99,0,0" Name="trunkColorText" VerticalAlignment="Top" Width="155" IsReadOnly="True" />
+                <Button Content="Neck" Height="23" HorizontalAlignment="Left" Margin="6,151,0,0" Name="neckColor" VerticalAlignment="Top" Width="75" Click="housingCoor_Click" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="99,148,0,0" Name="neckColorText" VerticalAlignment="Top" Width="155" IsReadOnly="True" />
+                <Button Content="Eye" Height="23" HorizontalAlignment="Left" Margin="6,197,0,0" Name="eyeColor" VerticalAlignment="Top" Width="75" Click="housingCoor_Click" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="99,194,0,0" Name="eyeColorText" VerticalAlignment="Top" Width="155" IsReadOnly="True" />
+                <Button Content="Track" Height="23" HorizontalAlignment="Left" Margin="6,243,0,0" Name="trackColor" VerticalAlignment="Top" Width="75" Click="housingCoor_Click" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="99,240,0,0" Name="trackColorText" VerticalAlignment="Top" Width="155" IsReadOnly="True" />
+                <Button Content="Panells" Height="23" HorizontalAlignment="Left" Margin="6,288,0,0" Name="panellsColor" VerticalAlignment="Top" Width="75" Click="housingCoor_Click" />
+                <TextBox Height="23" HorizontalAlignment="Left" IsReadOnly="True" Margin="99,285,0,0" Name="panellsColorText" VerticalAlignment="Top" Width="155" />
+            </Grid>
+        </GroupBox>
+        <Button Content="Ok" Height="23" HorizontalAlignment="Left" Margin="732,582,0,0" Name="okButton" VerticalAlignment="Top" Width="75" Click="okButton_Click" />
+        <Button Content="Cancel" Height="23" HorizontalAlignment="Left" Margin="837,582,0,0" Name="cancelBut" VerticalAlignment="Top" Width="75" Click="cancelBut_Click" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="652,489,0,0" Name="baseX" VerticalAlignment="Top" Width="52" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="837,489,0,0" Name="baseZ" VerticalAlignment="Top" Width="52" />
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="745,489,0,0" Name="baseY" VerticalAlignment="Top" Width="52" />
+        <Label Content="X" Height="28" HorizontalAlignment="Left" Margin="668,459,0,0" Name="label11" VerticalAlignment="Top" />
+        <Label Content="Y" Height="28" HorizontalAlignment="Left" Margin="762,459,0,0" Name="label12" VerticalAlignment="Top" />
+        <Label Content="Z" Height="28" HorizontalAlignment="Left" Margin="853,459,0,0" Name="label13" VerticalAlignment="Top" />
+    </Grid>
+</Window>

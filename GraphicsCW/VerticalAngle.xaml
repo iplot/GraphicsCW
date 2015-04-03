@@ -1,0 +1,10 @@
+﻿<Window x:Class="GraphicsCW.VerticalAngle"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="VerticalAngle" Height="176" Width="700">
+    <Grid Height="141">
+        <TextBox Height="23" HorizontalAlignment="Left" Margin="546,40,0,0" Name="verticalText" VerticalAlignment="Top" Width="120" IsReadOnly="True" Text="48" TextAlignment="Center" />
+        <Slider Height="23" HorizontalAlignment="Left" Margin="12,40,0,0" Name="verticalSlider" VerticalAlignment="Top" Width="528" Minimum="49" Maximum="98" SmallChange="1" TickPlacement="BottomRight" IsSnapToTickEnabled="True" ValueChanged="verticalSlider_ValueChanged" />
+        <Button Content="Ok" Height="23" HorizontalAlignment="Left" Margin="313,90,0,0" Name="okButton" VerticalAlignment="Top" Width="75" Click="okButton_Click" />
+    </Grid>
+</Window>

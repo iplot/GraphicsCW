@@ -1,0 +1,70 @@
+C:\Users\Администратор\Documents\Visual Studio 2010\Projects\GraphicsCW\GraphicsCW\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Администратор\Documents\Visual Studio 2010\Projects\GraphicsCW\GraphicsCW\obj\x86\Debug\MainWindow.baml
+C:\Users\Администратор\Documents\Visual Studio 2010\Projects\GraphicsCW\GraphicsCW\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Администратор\Documents\Visual Studio 2010\Projects\GraphicsCW\GraphicsCW\obj\x86\Debug\App.g.cs
+C:\Users\Администратор\Documents\Visual Studio 2010\Projects\GraphicsCW\GraphicsCW\obj\x86\Debug\GraphicsCW_MarkupCompile.cache
+C:\Users\Администратор\Documents\Visual Studio 2010\Projects\GraphicsCW\GraphicsCW\obj\x86\Debug\GraphicsCW.g.resources
+C:\Users\Администратор\Documents\Visual Studio 2010\Projects\GraphicsCW\GraphicsCW\obj\x86\Debug\GraphicsCW.Properties.Resources.resources
+C:\Users\Администратор\Documents\Visual Studio 2010\Projects\GraphicsCW\GraphicsCW\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Администратор\Documents\Visual Studio 2010\Projects\GraphicsCW\GraphicsCW\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Администратор\Documents\Visual Studio 2010\Projects\GraphicsCW\GraphicsCW\bin\Debug\GraphicsCW.exe
+C:\Users\Администратор\Documents\Visual Studio 2010\Projects\GraphicsCW\GraphicsCW\bin\Debug\GraphicsCW.pdb
+C:\Users\Администратор\Documents\Visual Studio 2010\Projects\GraphicsCW\GraphicsCW\obj\x86\Debug\GraphicsCW.exe
+C:\Users\Администратор\Documents\Visual Studio 2010\Projects\GraphicsCW\GraphicsCW\obj\x86\Debug\GraphicsCW.pdb
+D:\Папка возврата\GraphicsCW\GraphicsCW\obj\x86\Debug\GraphicsCW.exe
+D:\Папка возврата\GraphicsCW\GraphicsCW\obj\x86\Debug\GraphicsCW.pdb
+D:\Папка возврата\GraphicsCW\GraphicsCW\bin\Debug\GraphicsCW.exe
+D:\Папка возврата\GraphicsCW\GraphicsCW\bin\Debug\GraphicsCW.pdb
+D:\Папка возврата\GraphicsCW\GraphicsCW\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Папка возврата\GraphicsCW\GraphicsCW\obj\x86\Debug\MainWindow.baml
+D:\Папка возврата\GraphicsCW\GraphicsCW\obj\x86\Debug\MainWindow.g.cs
+D:\Папка возврата\GraphicsCW\GraphicsCW\obj\x86\Debug\App.g.cs
+D:\Папка возврата\GraphicsCW\GraphicsCW\obj\x86\Debug\GraphicsCW_MarkupCompile.cache
+D:\Папка возврата\GraphicsCW\GraphicsCW\obj\x86\Debug\GraphicsCW.g.resources
+D:\Папка возврата\GraphicsCW\GraphicsCW\obj\x86\Debug\GraphicsCW.Properties.Resources.resources
+D:\Папка возврата\GraphicsCW\GraphicsCW\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Папка возврата\GraphicsCW\GraphicsCW\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Администратор\Desktop\GraphicsCW\GraphicsCW\obj\x86\Debug\GraphicsCW.exe
+C:\Users\Администратор\Desktop\GraphicsCW\GraphicsCW\obj\x86\Debug\GraphicsCW.pdb
+C:\Users\Администратор\Desktop\GraphicsCW\GraphicsCW\bin\Debug\GraphicsCW.exe
+C:\Users\Администратор\Desktop\GraphicsCW\GraphicsCW\bin\Debug\GraphicsCW.pdb
+C:\Users\Администратор\Desktop\GraphicsCW\GraphicsCW\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Администратор\Desktop\GraphicsCW\GraphicsCW\obj\x86\Debug\MainWindow.baml
+C:\Users\Администратор\Desktop\GraphicsCW\GraphicsCW\obj\x86\Debug\MainWindow.g.cs
+C:\Users\Администратор\Desktop\GraphicsCW\GraphicsCW\obj\x86\Debug\App.g.cs
+C:\Users\Администратор\Desktop\GraphicsCW\GraphicsCW\obj\x86\Debug\GraphicsCW_MarkupCompile.cache
+C:\Users\Администратор\Desktop\GraphicsCW\GraphicsCW\obj\x86\Debug\GraphicsCW.g.resources
+C:\Users\Администратор\Desktop\GraphicsCW\GraphicsCW\obj\x86\Debug\GraphicsCW.Properties.Resources.resources
+C:\Users\Администратор\Desktop\GraphicsCW\GraphicsCW\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Администратор\Desktop\GraphicsCW\GraphicsCW\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Администратор\Documents\Visual Studio 2010\Projects\GraphicsCW\GraphicsCW\obj\x86\Debug\NewWalle.baml
+C:\Users\Администратор\Documents\Visual Studio 2010\Projects\GraphicsCW\GraphicsCW\obj\x86\Debug\NewWalle.g.cs
+C:\Users\Администратор\Documents\Visual Studio 2010\Projects\GraphicsCW\GraphicsCW\obj\x86\Debug\HorizontalAngle.baml
+C:\Users\Администратор\Documents\Visual Studio 2010\Projects\GraphicsCW\GraphicsCW\obj\x86\Debug\HorizontalAngle.g.cs
+C:\Users\Администратор\Documents\Visual Studio 2010\Projects\GraphicsCW\GraphicsCW\obj\x86\Debug\VerticalAngle.baml
+C:\Users\Администратор\Documents\Visual Studio 2010\Projects\GraphicsCW\GraphicsCW\obj\x86\Debug\VerticalAngle.g.cs
+D:\Cloud Directory\Новая папка\GraphicsCW\GraphicsCW\obj\x86\Debug\GraphicsCW.exe
+D:\Cloud Directory\Новая папка\GraphicsCW\GraphicsCW\obj\x86\Debug\GraphicsCW.pdb
+D:\Cloud Directory\Новая папка\GraphicsCW\GraphicsCW\bin\Debug\GraphicsCW.exe
+D:\Cloud Directory\Новая папка\GraphicsCW\GraphicsCW\bin\Debug\GraphicsCW.pdb
+D:\Cloud Directory\Новая папка\GraphicsCW\GraphicsCW\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Cloud Directory\Новая папка\GraphicsCW\GraphicsCW\obj\x86\Debug\HorizontalAngle.baml
+D:\Cloud Directory\Новая папка\GraphicsCW\GraphicsCW\obj\x86\Debug\MainWindow.baml
+D:\Cloud Directory\Новая папка\GraphicsCW\GraphicsCW\obj\x86\Debug\NewWalle.baml
+D:\Cloud Directory\Новая папка\GraphicsCW\GraphicsCW\obj\x86\Debug\VerticalAngle.baml
+D:\Cloud Directory\Новая папка\GraphicsCW\GraphicsCW\obj\x86\Debug\HorizontalAngle.g.cs
+D:\Cloud Directory\Новая папка\GraphicsCW\GraphicsCW\obj\x86\Debug\MainWindow.g.cs
+D:\Cloud Directory\Новая папка\GraphicsCW\GraphicsCW\obj\x86\Debug\NewWalle.g.cs
+D:\Cloud Directory\Новая папка\GraphicsCW\GraphicsCW\obj\x86\Debug\VerticalAngle.g.cs
+D:\Cloud Directory\Новая папка\GraphicsCW\GraphicsCW\obj\x86\Debug\App.g.cs
+D:\Cloud Directory\Новая папка\GraphicsCW\GraphicsCW\obj\x86\Debug\GraphicsCW_MarkupCompile.cache
+D:\Cloud Directory\Новая папка\GraphicsCW\GraphicsCW\obj\x86\Debug\GraphicsCW.g.resources
+D:\Cloud Directory\Новая папка\GraphicsCW\GraphicsCW\obj\x86\Debug\GraphicsCW.Properties.Resources.resources
+D:\Cloud Directory\Новая папка\GraphicsCW\GraphicsCW\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Cloud Directory\Новая папка\GraphicsCW\GraphicsCW\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Администратор\Desktop\GraphicsCW\GraphicsCW\obj\x86\Debug\HorizontalAngle.baml
+C:\Users\Администратор\Desktop\GraphicsCW\GraphicsCW\obj\x86\Debug\NewWalle.baml
+C:\Users\Администратор\Desktop\GraphicsCW\GraphicsCW\obj\x86\Debug\VerticalAngle.baml
+C:\Users\Администратор\Desktop\GraphicsCW\GraphicsCW\obj\x86\Debug\HorizontalAngle.g.cs
+C:\Users\Администратор\Desktop\GraphicsCW\GraphicsCW\obj\x86\Debug\NewWalle.g.cs
+C:\Users\Администратор\Desktop\GraphicsCW\GraphicsCW\obj\x86\Debug\VerticalAngle.g.cs
